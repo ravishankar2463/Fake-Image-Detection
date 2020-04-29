@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
+@import 'css/bootstrap.min.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.2;
+}
+
+.txtcol{
+    color:  #232b2b;
+    /*linear-gradient(to right, #f2994a, #f2c94c)*/
+}
+
+#fid{
+    font-size: 1.7rem;
+    margin-left: 10px;
+}
+
+/*.head{
+	animation: 1s fadein 0.5s forwards;
+	opacity: 0 !important;
+}*/
+
+
+
+.title{
+	opacity: 0;
+	margin-top: 100px;
+	animation: 1s slidefade 1s forwards; 
+}
+
+.sldfd{
+	opacity: 0;
+	margin-top: 100px;
+	animation: 1s slidefade 1s forwards; 
+}
+
+@keyframes slidefade{
+	100%{
+		opacity: 1;
+		margin-top: 0;
+	}
+}
+
+#piechart{
+	animation: 3s fadein 0.5s forwards;
+	opacity: 0;
+}
+
+#lib p{
+	animation: 3s fadein 0.5s forwards;
+	opacity: 0;
+}
+
+@keyframes fadein {
+	100%{
+		opacity: 1;
+	}
+}

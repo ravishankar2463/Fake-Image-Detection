@@ -37,5 +37,5 @@ Testing Results:-
 
  Futher Things That can be Enhanced:-
   * Improving the accuracy of the neural network
-  * Incresing the dataset and then train.
+  * Increasing the dataset and then training the neural network.
   * Using a different model like ResNet50 for transfer learning.

@@ -1,4 +1,5 @@
 # Fake-Image-Detection
+*Disclaimer:- Dataset and Neural Network Model not provided in this repo.
 
 Application Front:-
 
